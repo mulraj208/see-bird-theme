@@ -8,7 +8,7 @@ function see_bird_theme_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'tailpress' ),
+			'primary' => __( 'Primary Menu', 'see_bird' ),
 		)
 	);
 
@@ -41,8 +41,8 @@ add_action( 'after_setup_theme', 'see_bird_theme_setup' );
 function see_bird_theme_enqueue_scripts() {
 	$theme = wp_get_theme();
 
-	wp_enqueue_style( 'tailpress', see_bird_theme_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
-	wp_enqueue_script( 'tailpress', see_bird_theme_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_style( 'see_bird', see_bird_theme_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_script( 'see_bird', see_bird_theme_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'see_bird_theme_enqueue_scripts' );

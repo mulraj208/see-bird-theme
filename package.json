@@ -1,8 +1,8 @@
 {
 	"name": "see-bird-theme",
 	"version": "0.1.0",
-	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"description": "See Bird WordPress theme with Tailwind CSS.",
+	"author": "Mulraj Gupta",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/username/see-bird-theme"
