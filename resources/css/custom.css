@@ -1,3 +1,7 @@
+html {
+  font-family: 'Manrope', sans-serif;
+}
+
 .main-logo a {
   @apply inline-block;
   max-width: 150px;

@@ -5,13 +5,8 @@
  */
 
 get_header();
-?>
 
+get_template_part( 'template-parts/lander/banner' );
 
-<div class="container mx-auto my-8 px-3 xl:px-0">
+get_footer();
 
-  <h1>Lander Page</h1>
-
-</div>
-
-<?php get_footer(); ?>

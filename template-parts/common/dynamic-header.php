@@ -9,6 +9,10 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
 ?>
 
 <header>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <div class="mx-auto container px-3 xl:px-0">
     <div class="flex justify-between items-center border-b py-4 lg:py-6">
       <div class="flex justify-between items-center">
@@ -61,7 +65,7 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
               </a>
 
               <?php if ( count( $menu_item['children'] ) ): ?>
-                <ul class="sub-menu absolute left-0 opacity-0 invisible bg-white">
+                <ul class="sub-menu absolute left-0 opacity-0 rounded invisible bg-white">
                   <?php foreach ( $menu_item['children'] as $sub_menu_key => $sub_menu_item ): ?>
                     <li class="sub-menu-item">
                       <a href="<?php echo $sub_menu_item['url']; ?>" class="p-4 hover:bg-gray-200 block">
