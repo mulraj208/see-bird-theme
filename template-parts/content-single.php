@@ -5,7 +5,7 @@
 		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>
 	</header>
 
-	<div class="entry-content">
+	<div class="prose prose-slate lg:prose-lg max-w-full">
 		<?php the_content(); ?>
 
 		<?php
