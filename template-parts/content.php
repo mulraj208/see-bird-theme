@@ -13,7 +13,7 @@
 
 	<?php else : ?>
 
-		<div class="prose prose-slate lg:prose-lg max-w-full">
+		<div class="prose lg:prose-lg max-w-full">
 			<?php
 			/* translators: %s: Name of current post */
 			the_content(
