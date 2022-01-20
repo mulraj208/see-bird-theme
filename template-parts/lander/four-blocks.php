@@ -5,7 +5,7 @@
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 relative z-10">
       <?php foreach ( $data as $item ): ?>
         <div class="rounded bg-gradient-to-r from-secondary to-black text-white py-6 px-4">
-          <h4 class="uppercase font-bold mb-6"><?php echo $item; ?></h4>
+          <h4 class="uppercase tracking-wider font-bold mb-6"><?php echo $item; ?></h4>
           <p class="text-lg mb-14 leading-relaxed font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Ad, aspernatur culpa
             inventore iure maiores inventore iure maiores inventore iure maiores?</p>

@@ -8,4 +8,5 @@ get_header();
 get_template_part( 'template-parts/lander/banner' );
 get_template_part( 'template-parts/lander/section', 'content' );
 get_template_part( 'template-parts/lander/four', 'blocks' );
+get_template_part( 'template-parts/lander/how-it', 'works' );
 get_footer();
