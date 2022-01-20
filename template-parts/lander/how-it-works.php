@@ -27,7 +27,7 @@ $data = [
 
   <div class="max-w-4xl mx-auto">
     <?php foreach ( $data as $key => $item ): ?>
-      <div class="grid md:grid-cols-2 gap-10 place-items-center mb-16">
+      <div class="grid md:grid-cols-2 gap-10 place-items-center <?php echo $key === (count($data) - 1) ? '' : 'mb-12'; ?>">
         <img
           src="<?php echo $item['img']; ?>"
           alt="<?php echo $item['title']; ?>"

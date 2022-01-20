@@ -32,5 +32,6 @@ module.exports = {
   plugins: [
     tailpress.tailwind,
     require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
   ]
 };

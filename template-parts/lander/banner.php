@@ -7,7 +7,7 @@
       <p class="text-lg lg:text-xl leading-normal font-semmibold mb-6 lg:mb-8 text-gray-400">
         Your technical activities with precision in real time with our Inspection Solutions.
       </p>
-      <a href="#" class="bg-primary hover:bg-secondary py-4 px-8 text-white text-lg rounded inline-block self-start">
+      <a href="#" class="bg-primary hover:bg-secondary py-4 px-8 text-white text-lg rounded inline-block self-start uppercase tracking-wider">
         Request Demo
       </a>
     </div>
