@@ -8,6 +8,11 @@ $globals_dir = get_stylesheet_directory() . '/app/global/';
 include_once( $globals_dir . 'theme-constants.php' );
 
 /**
+ * Disable comments
+ */
+require $globals_dir . 'disable-comments.php';
+
+/**
  * Theme setup.
  */
 function see_bird_theme_setup() {

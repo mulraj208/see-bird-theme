@@ -1,8 +1,10 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'mb-12' ); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'mb-12 prose lg:prose-lg prose-a:text-primary md:px-3 xl:px-0 max-w-full' ); ?>>
 
 	<header class="entry-header mb-4">
-		<?php the_title( sprintf( '<h2 class="entry-title text-2xl md:text-3xl font-extrabold leading-tight mb-1"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>
+    <h1 class="text-4xl leading-tight font-extrabold text-black mb-1 lg:mb-1">
+      <?php the_title(); ?>
+    </h1>
+		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-400"><?php echo get_the_date(); ?></time>
 	</header>
 
 	<?php if ( is_search() || is_archive() ) : ?>
@@ -13,7 +15,7 @@
 
 	<?php else : ?>
 
-		<div class="prose lg:prose-lg max-w-full">
+		<div>
 			<?php
 			/* translators: %s: Name of current post */
 			the_content(
