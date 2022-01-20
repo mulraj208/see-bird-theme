@@ -13,7 +13,7 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <div class="mx-auto container px-3 xl:px-0">
+  <div class="mx-auto container px-3 2xl:px-0">
     <div class="flex justify-between items-center border-b py-4 lg:py-6">
       <div class="flex justify-between items-center">
         <div class="main-logo inline-block">

@@ -1,4 +1,4 @@
-<div class="container max-w-screen-lg mx-auto my-8 px-3 xl:px-0">
+<div class="container mx-auto py-8 px-3 2xl:px-0">
   <div class="prose lg:prose-lg max-w-full">
     <h1 class="text-center">A versatile solution to save you money</h1>
     <p>Paragraph summarising the offering. Remote work adoption has made the location of facilities and personnel
