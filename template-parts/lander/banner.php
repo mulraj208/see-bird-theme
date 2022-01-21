@@ -1,4 +1,4 @@
-<div class="container mx-auto py-8 px-3 2xl:px-0">
+<div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up" data-aos-delay="300">
   <div class="grid lg:grid-cols-2 gap-8 lg:gap-4">
     <div class="left-section flex flex-col justify-center break-word order-2 lg:order-none">
       <h1 class="text-4xl lg:text-6xl font-bold mb-6 lg:mb-10 text-dark">

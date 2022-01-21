@@ -1,3 +1,4 @@
+import AOS from 'aos';
 import { delegateEvent, slideToggle } from './utils';
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -18,4 +19,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  AOS.init({ once: true });
 });

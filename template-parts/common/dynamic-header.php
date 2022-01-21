@@ -9,14 +9,10 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
 ?>
 
 <header>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
   <div class="mx-auto container px-3 2xl:px-0">
     <div class="flex justify-between items-center border-b py-4 lg:py-6">
       <div class="flex justify-between items-center">
-        <div class="main-logo inline-block">
+        <div class="main-logo inline-block" data-aos="fade-right">
           <?php if ( has_custom_logo() ) { ?>
             <?php the_custom_logo(); ?>
           <?php } else { ?>
@@ -34,7 +30,7 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
         </div>
       </div>
 
-      <div id="primary_menu">
+      <div id="primary_menu" data-aos="fade-left">
         <div class="lg:hidden">
           <a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
             <svg viewBox="0 0 20 20" class="hamburger-icon inline-block w-6 h-6" version="1.1"

@@ -20,7 +20,7 @@ $data = [
 
 ?>
 
-<div class="container mx-auto py-8 px-3 2xl:px-0">
+<div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up" data-aos-delay="100">
   <div class="prose lg:prose-lg max-w-full mb-12">
     <h2 class="text-4xl lg:text-5xl font-extrabold text-center">How it works</h2>
   </div>

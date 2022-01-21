@@ -1,6 +1,6 @@
 <?php $data = [ 'Hardware', 'Software', 'SME Support', 'Training' ]; ?>
 
-<div class="container mx-auto py-8 px-3 2xl:px-0">
+<div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up">
   <div class="relative xl:px-6 xl:py-8">
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 relative z-10">
       <?php foreach ( $data as $item ): ?>
