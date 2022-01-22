@@ -19,4 +19,5 @@ get_template_part( 'template-parts/lander/banner' );
 <?php
 get_template_part( 'template-parts/lander/how-it', 'works' );
 get_template_part( 'template-parts/lander/side-by', 'side' );
+get_template_part( 'template-parts/lander/testimonials' );
 get_footer();

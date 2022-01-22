@@ -1,5 +1,8 @@
 import AOS from 'aos';
+import Swiper, { Pagination } from 'swiper';
 import { delegateEvent, slideToggle } from './utils';
+
+Swiper.use([Pagination]);
 
 document.addEventListener('DOMContentLoaded', function () {
   const mobilePrimaryMenu = document.querySelector('.mobile-primary-menu');
@@ -20,4 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   AOS.init({ once: true });
+
+  const swiper = new Swiper('.testimonial-swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
 });

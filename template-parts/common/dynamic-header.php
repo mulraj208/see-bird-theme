@@ -30,7 +30,7 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
         </div>
       </div>
 
-      <div id="primary_menu" data-aos="fade-left">
+      <div id="primary_menu" class="z-20" data-aos="fade-left">
         <div class="lg:hidden">
           <a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
             <svg viewBox="0 0 20 20" class="hamburger-icon inline-block w-6 h-6" version="1.1"
@@ -78,7 +78,7 @@ $wp_menu = ( new SubNavbarController( 'primary-menu' ) )->wpGetNavSortedMenuItem
 
     </div>
 
-    <div class="mobile-primary-menu hidden">
+    <div class="mobile-primary-menu z-20 hidden">
       <ul>
         <?php foreach ( $wp_menu as $key => $menu_item ): ?>
           <li
