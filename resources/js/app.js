@@ -22,12 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  AOS.init({ once: true });
+  AOS.init();
 
   const swiper = new Swiper('.testimonial-swiper', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      autoplay: true,
     },
   });
 });

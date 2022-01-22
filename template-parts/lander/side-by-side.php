@@ -47,7 +47,7 @@ $data = [
         <img
           src="https://picsum.photos/536/354?<?php echo $key; ?>"
           alt="<?php echo $item['title']; ?>"
-          class="h-60 md:h-49 lg:h-auto object-cover rounded-lg <?php echo $key % 2 === 1 ? 'order-1' : 'order-1 md:order-none' ?>"
+          class="h-48 md:h-60 lg:h-auto object-cover rounded-lg <?php echo $key % 2 === 1 ? 'order-1' : 'order-1 md:order-none' ?>"
         >
       </div>
     <?php endforeach; ?>
