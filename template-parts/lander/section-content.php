@@ -1,4 +1,4 @@
-<div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up" data-aos-delay="400">
+<div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up" data-aos-delay="600">
   <div class="prose lg:prose-lg max-w-full">
     <h2 class="text-4xl lg:text-5xl font-extrabold text-center">A versatile solution to save you money</h2>
     <p>Paragraph summarising the offering. Remote work adoption has made the location of facilities and personnel

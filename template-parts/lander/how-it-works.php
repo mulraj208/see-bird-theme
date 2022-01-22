@@ -32,8 +32,14 @@ $data = [
           src="<?php echo $item['img']; ?>"
           alt="<?php echo $item['title']; ?>"
           class="h-60 md:h-auto object-cover <?php echo $key % 2 === 1 ? 'md:order-2' : '' ?>"
+          data-aos="zoom-in"
+          data-aos-delay="300"
         >
-        <div class="flex flex-col justify-center items-center md:items-start <?php echo $key % 2 === 1 ? 'md:order-1' : '' ?>">
+        <div
+          class="flex flex-col justify-center items-center md:items-start <?php echo $key % 2 === 1 ? 'md:order-1' : '' ?>"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <div class="text-2xl lg:text-3xl font-bold mb-2"><?php echo $item['title']; ?></div>
           <p class="text-center md:text-left text-lg text-gray-500 leading-relaxed">
             <?php echo $item['description']; ?>
