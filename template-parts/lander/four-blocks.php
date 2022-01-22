@@ -1,14 +1,31 @@
-<?php $data = [ 'Hardware', 'Software', 'SME Support', 'Training' ]; ?>
+<?php $data = [
+  [
+    'title'       => 'Hardware',
+    'description' => 'Fully-integrated and flexible with high-quality video to guarantee accurate data capture.',
+  ],
+  [
+    'title'       => 'Software',
+    'description' => 'Easy-to-use and accessible with mobile phones, GDPR compliant with traceability to ensure data protection.',
+  ],
+  [
+    'title'       => 'SME Support',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda dolor enim',
+  ],
+  [
+    'title'       => 'Training',
+    'description' => 'harum illum ipsam libero magnam natus obcaecati perspiciatis porro quia, quisquam sit soluta. ',
+  ],
+];
+
+?>
 
 <div class="container mx-auto py-8 px-3 2xl:px-0" data-aos="fade-up">
   <div class="relative xl:px-6 xl:py-8">
     <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 relative z-10">
       <?php foreach ( $data as $item ): ?>
         <div class="rounded bg-gradient-to-r from-secondary to-black text-white py-6 px-4">
-          <h4 class="uppercase tracking-wider font-bold mb-6"><?php echo $item; ?></h4>
-          <p class="text-lg mb-14 leading-relaxed font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ad, aspernatur culpa
-            inventore iure maiores inventore iure maiores inventore iure maiores?</p>
+          <h4 class="uppercase tracking-wider font-bold mb-6"><?php echo $item['title']; ?></h4>
+          <p class="text-lg mb-14 leading-relaxed font-light"><?php echo $item['description']; ?></p>
           <a href="#" class="flex items-center hover:underline">
             <span class="mr-8 uppercase tracking-wider text-sm">Learn More</span>
             <span class="inline-block h-10 w-10 bg-primary rounded-full flex justify-center items-center">

@@ -11,7 +11,7 @@
             <div
               class="swiper-slide px-6 py-10 lg:px-12 lg:py-14 border border-gray-300 bg-teal-50 grid md:grid-cols-3 gap-8 lg:gap-16 place-items-center rounded-lg">
               <img
-                src="https://randomuser.me/api/portraits/men/27.jpg"
+                src="https://randomuser.me/api/portraits/men/86.jpg"
                 alt="John Doe"
                 class="h-40 w-40 lg:h-48 lg:w-48 rounded-full"
               >
