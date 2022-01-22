@@ -21,6 +21,7 @@ function see_bird_theme_setup() {
   register_nav_menus(
     array(
       'primary' => __( 'Primary Menu', 'see_bird' ),
+      'footer'  => __( 'Footer Menu', 'see_bird' ),
     )
   );
 

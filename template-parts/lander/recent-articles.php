@@ -18,7 +18,7 @@ $data = [
       <?php foreach ( $data as $key => $item ): ?>
         <a
           href="#"
-          class="block rounded-lg text-black bg-gray-100 cursor-pointer hover:shadow-xl <?php echo $key === (count($data) - 1) ? 'hidden lg:block' : ''; ?>"
+          class="block rounded-lg text-black bg-gray-100 cursor-pointer hover:shadow-xl <?php echo $key === (count($data) - 1) ? 'md:hidden lg:block' : ''; ?>"
           data-aos="fade-up"
           data-aos-delay="400"
         >
